@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scheduling assistant</title>
+  <link rel="stylesheet" href="/static/styles.css?v=4">
+  <script src="/static/app.js?v=4" defer></script>
+</head>
+<body class="chat-page">
+  <main class="chat-layout">
+    <div class="toolbar">
+      <label for="account">Signed in as</label>
+      <select id="account"></select>
+      <span id="clock" class="muted"></span>
+    </div>
+    <section id="messages" aria-live="polite"></section>
+    <form id="chat-form">
+      <div class="composer">
+        <input id="message" autocomplete="off" placeholder="Message…" required>
+        <button id="send" class="primary" type="submit">Send</button>
+      </div>
+      <p id="status" class="muted"></p>
+    </form>
+  </main>
+</body>
+</html>

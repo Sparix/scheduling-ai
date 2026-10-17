@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #222;
+  font: 15px/1.5 system-ui, sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 9px 11px;
+}
+
+button {
+  background: #f7f7f7;
+  color: #222;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+input,
+select {
+  background: #fff;
+  color: #222;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #888;
+  outline-offset: 2px;
+}
+
+label {
+  font-size: 13px;
+}
+
+pre {
+  max-height: 350px;
+  overflow: auto;
+  padding: 12px;
+  border-radius: 4px;
+  background: #f7f7f7;
+  font-size: 12px;
+}
+
+summary {
+  cursor: pointer;
+  color: #666;
+  font-size: 13px;
+}
+
+.muted {
+  color: #777;
+  font-size: 13px;
+}
+
+.chat-page {
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.chat-layout {
+  display: flex;
+  flex-direction: column;
+  max-width: 760px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.toolbar {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.toolbar select {
+  max-width: 100%;
+}
+
+#messages {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-gutter: stable;
+  padding: 12px 8px 0;
+}
+
+article {
+  margin: 18px 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eee;
+  overflow-wrap: anywhere;
+}
+
+article strong {
+  font-size: 13px;
+}
+
+article p {
+  margin: 7px 0;
+  white-space: pre-wrap;
+}
+
+article details {
+  margin: 6px 0;
+}
+
+article.error {
+  color: #9a2929;
+}
+
+article.tool {
+  color: #555;
+}
+
+article.tool strong {
+  color: #777;
+  font-weight: 500;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+#chat-form {
+  flex: none;
+  padding: 16px 0 max(8px, env(safe-area-inset-bottom));
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+.composer {
+  display: flex;
+  gap: 8px;
+}
+
+.composer input {
+  flex: 1;
+  min-width: 0;
+}
+
+#status {
+  min-height: 20px;
+  margin: 6px 0 0;
+}
+
+@media (max-width: 480px) {
+  .chat-layout {
+    padding: 0 14px;
+  }
+}
