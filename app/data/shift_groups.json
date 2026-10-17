@@ -1,0 +1,92 @@
+[
+  {
+    "id": "morning",
+    "name": "Morning",
+    "active_days": [
+      "sun",
+      "mon",
+      "tue",
+      "wed",
+      "thu"
+    ],
+    "block_quota": 4,
+    "request_quota": 3
+  },
+  {
+    "id": "midday",
+    "name": "Mid-day",
+    "active_days": [
+      "sun",
+      "mon",
+      "tue",
+      "wed",
+      "thu"
+    ],
+    "block_quota": 4,
+    "request_quota": 2
+  },
+  {
+    "id": "evening",
+    "name": "Evening",
+    "active_days": [
+      "sun",
+      "mon",
+      "tue",
+      "wed",
+      "thu"
+    ],
+    "block_quota": 4,
+    "request_quota": 3
+  },
+  {
+    "id": "night",
+    "name": "Night",
+    "active_days": [
+      "sun",
+      "mon",
+      "tue",
+      "wed",
+      "thu"
+    ],
+    "block_quota": 4,
+    "request_quota": 3
+  },
+  {
+    "id": "doubles",
+    "name": "Doubles",
+    "active_days": [
+      "sun",
+      "mon",
+      "tue",
+      "wed",
+      "thu"
+    ],
+    "block_quota": 4,
+    "request_quota": 2
+  },
+  {
+    "id": "weekend",
+    "name": "Weekend",
+    "active_days": [
+      "fri",
+      "sat"
+    ],
+    "block_quota": 4,
+    "request_quota": 1
+  },
+  {
+    "id": "on_call",
+    "name": "On-call",
+    "active_days": [
+      "sun",
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat"
+    ],
+    "block_quota": 4,
+    "request_quota": 2
+  }
+]

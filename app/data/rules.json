@@ -1,0 +1,192 @@
+[
+  {
+    "id": "1",
+    "title": "At least eight hours of rest between the end of one shift and the start of the next",
+    "type": "hard",
+    "limit": 8
+  },
+  {
+    "id": "2",
+    "title": "At least 36 hours of continuous weekly rest",
+    "type": "hard",
+    "limit": 36
+  },
+  {
+    "id": "3",
+    "title": "No more than 12 working hours per day",
+    "type": "hard",
+    "limit": 12
+  },
+  {
+    "id": "4",
+    "title": "No more than six working days per week",
+    "type": "hard",
+    "limit": 6
+  },
+  {
+    "id": "5",
+    "title": "No more than three consecutive night shifts",
+    "type": "hard",
+    "limit": 3
+  },
+  {
+    "id": "6",
+    "title": "No morning shift on the same day a night shift ended",
+    "type": "hard"
+  },
+  {
+    "id": "7",
+    "title": "An employee must not be assigned to a shift in a group and on a day they blocked",
+    "type": "hard"
+  },
+  {
+    "id": "8",
+    "title": "An employee may be assigned only with the required skill at the required level or higher (lead shifts also require the shift lead role)",
+    "type": "hard"
+  },
+  {
+    "id": "9",
+    "title": "An employee must not be assigned during an approved absence",
+    "type": "hard"
+  },
+  {
+    "id": "10",
+    "title": "An employee must not be assigned to two shifts that overlap in time",
+    "type": "hard"
+  },
+  {
+    "id": "11",
+    "title": "Every shift must meet the headcount set for it on that day",
+    "type": "hard"
+  },
+  {
+    "id": "12",
+    "title": "Every night must have at least one shift lead in the department",
+    "type": "hard"
+  },
+  {
+    "id": "13",
+    "title": "No more than 45 hours per week, prorated by job scope",
+    "type": "hard",
+    "limit": 45
+  },
+  {
+    "id": "14",
+    "title": "An employee in onboarding must not work alone; a veteran with the same skill must work alongside them",
+    "type": "hard"
+  },
+  {
+    "id": "15",
+    "title": "Two employees in onboarding must not be assigned to the same shift",
+    "type": "hard"
+  },
+  {
+    "id": "16",
+    "title": "Honor requests according to the priority the employee set",
+    "type": "soft",
+    "weight": "high"
+  },
+  {
+    "id": "17",
+    "title": "Fair distribution of weekend shifts over four weeks",
+    "type": "soft",
+    "weight": "high"
+  },
+  {
+    "id": "18",
+    "title": "Fair distribution of night shifts over four weeks",
+    "type": "soft",
+    "weight": "high"
+  },
+  {
+    "id": "19",
+    "title": "Reach minimum hours according to job scope",
+    "type": "soft",
+    "weight": "medium",
+    "limit": 30
+  },
+  {
+    "id": "20",
+    "title": "Avoid more than two double shifts per week",
+    "type": "soft",
+    "weight": "medium",
+    "limit": 2
+  },
+  {
+    "id": "21",
+    "title": "Prefer consecutive work days over isolated days",
+    "type": "soft",
+    "weight": "low"
+  },
+  {
+    "id": "22",
+    "title": "Keep a stable team as much as possible",
+    "type": "soft",
+    "weight": "low"
+  },
+  {
+    "id": "23",
+    "title": "Each employee may block up to the group's quota (four) per week in each shift group; exceeding it, or the group's request quota, requires manager approval",
+    "type": "submission"
+  },
+  {
+    "id": "24",
+    "title": "The submission deadline is Wednesday at 12:00 of the previous week; late submissions are saved as pending approval",
+    "type": "submission"
+  },
+  {
+    "id": "A1",
+    "title": "Age 16-18: no work between 22:00 and 06:00",
+    "type": "age"
+  },
+  {
+    "id": "A2",
+    "title": "Age 16-18: no more than eight hours per day",
+    "type": "age",
+    "limit": 8
+  },
+  {
+    "id": "A3",
+    "title": "Age 16-18: no more than 40 hours per week",
+    "type": "age",
+    "limit": 40
+  },
+  {
+    "id": "A4",
+    "title": "Age 16-18: at least 12 hours of rest between shifts",
+    "type": "age",
+    "limit": 12
+  },
+  {
+    "id": "A5",
+    "title": "Age 16-18: no double shifts",
+    "type": "age"
+  },
+  {
+    "id": "A6",
+    "title": "Age 16-18: no on-call shifts",
+    "type": "age"
+  },
+  {
+    "id": "A7",
+    "title": "Age 55+: no more than two night shifts per week",
+    "type": "age",
+    "limit": 2
+  },
+  {
+    "id": "A8",
+    "title": "Age 55+: an employee may request an exemption from nights, which is approved automatically",
+    "type": "age"
+  },
+  {
+    "id": "A9",
+    "title": "Age 60+: exempt from nights by default, unless the employee explicitly requested one",
+    "type": "age"
+  },
+  {
+    "id": "A10",
+    "title": "Age 60+: no more than ten hours per shift",
+    "type": "age",
+    "limit": 10
+  }
+]

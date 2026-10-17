@@ -1,0 +1,8 @@
+[
+  {"id": "A001", "employee_id": "E28", "type": "vacation", "start": "2026-10-20", "end": "2026-10-22", "status": "approved"},
+  {"id": "A002", "employee_id": "E27", "type": "reserve_duty", "start": "2026-10-18", "end": "2026-10-24", "status": "approved"},
+  {"id": "A003", "employee_id": "E29", "type": "sick_leave", "start": "2026-10-18", "end": "2026-10-19", "status": "approved"},
+  {"id": "A004", "employee_id": "E02", "type": "vacation", "start": "2026-10-21", "end": "2026-10-21", "status": "approved"},
+  {"id": "A005", "employee_id": "E05", "type": "vacation", "start": "2026-10-23", "end": "2026-10-24", "status": "pending"},
+  {"id": "A006", "employee_id": "E11", "type": "vacation", "start": "2026-10-04", "end": "2026-10-08", "status": "approved"}
+]

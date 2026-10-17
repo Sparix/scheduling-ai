@@ -1,0 +1,4478 @@
+[
+ {
+  "week_start": "2026-09-13",
+  "status": "locked",
+  "score": 63.9,
+  "assignments": [
+   {
+    "employee_id": "E03",
+    "shift_id": "S11",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S11",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S03",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S30",
+    "date": "2026-09-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S03",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S16",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S28",
+    "date": "2026-09-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S16",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S22",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S11",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S16",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S03",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S03",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S16",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S24",
+    "date": "2026-09-18",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S11",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S16",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S03",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S10",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S17",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S09",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S09",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S32",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S12",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S05",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S31",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S18",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S06",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S20",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S09",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S09",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S29",
+    "date": "2026-09-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S13",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S32",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S13",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S31",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S05",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S13",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S23",
+    "date": "2026-09-18",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S23",
+    "date": "2026-09-18",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S23",
+    "date": "2026-09-18",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S32",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S05",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S06",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S17",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S14",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S05",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S05",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S04",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S12",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S02",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S25",
+    "date": "2026-09-18",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S25",
+    "date": "2026-09-18",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S10",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S09",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S09",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S15",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S04",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S10",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S17",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S17",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S01",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S01",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S01",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S10",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S18",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S02",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S13",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S21",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S20",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S32",
+    "date": "2026-09-18",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S07",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S21",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S17",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S02",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S02",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S15",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S27",
+    "date": "2026-09-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S27",
+    "date": "2026-09-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S31",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S02",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S01",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S01",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S01",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S01",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S32",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S12",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S04",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S01",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S01",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S01",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S15",
+    "date": "2026-09-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S32",
+    "date": "2026-09-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S31",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S14",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S26",
+    "date": "2026-09-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S26",
+    "date": "2026-09-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S31",
+    "date": "2026-09-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S13",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S01",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S01",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S01",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S15",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S05",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S02",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S31",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S14",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S10",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S09",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S09",
+    "date": "2026-09-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S09",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S09",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S09",
+    "date": "2026-09-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S15",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S07",
+    "date": "2026-09-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S01",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S01",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S01",
+    "date": "2026-09-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-09-18",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S32",
+    "date": "2026-09-16",
+    "source": "manual"
+   }
+  ]
+ },
+ {
+  "week_start": "2026-09-20",
+  "status": "locked",
+  "score": 56.0,
+  "assignments": [
+   {
+    "employee_id": "E03",
+    "shift_id": "S03",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S22",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S03",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S03",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S11",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S16",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S16",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S30",
+    "date": "2026-09-26",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S16",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S16",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S11",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S16",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S28",
+    "date": "2026-09-26",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S24",
+    "date": "2026-09-25",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S26",
+    "date": "2026-09-26",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S26",
+    "date": "2026-09-26",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S05",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S06",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S02",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S02",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S12",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S15",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S13",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S15",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S17",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S21",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S32",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S01",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S01",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S01",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S23",
+    "date": "2026-09-25",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S23",
+    "date": "2026-09-25",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S23",
+    "date": "2026-09-25",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E18",
+    "shift_id": "S31",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S18",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S13",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S10",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S09",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S09",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S02",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S04",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S01",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S01",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S01",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S20",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S09",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S09",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S10",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S04",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S05",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S02",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S02",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S10",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S17",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S09",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S09",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S09",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S17",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S13",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S17",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S31",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S09",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S09",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S05",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S05",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S14",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S31",
+    "date": "2026-09-25",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S32",
+    "date": "2026-09-26",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S05",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S27",
+    "date": "2026-09-26",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S27",
+    "date": "2026-09-26",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S10",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S31",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S01",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S01",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S01",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S01",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S13",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S10",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S17",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S32",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S15",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S31",
+    "date": "2026-09-26",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S05",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E18",
+    "shift_id": "S13",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S14",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S04",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S32",
+    "date": "2026-09-25",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S07",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S09",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S09",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S32",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S01",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S01",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S01",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S15",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S32",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S18",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S25",
+    "date": "2026-09-25",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S25",
+    "date": "2026-09-25",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S07",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S21",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S20",
+    "date": "2026-09-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S04",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S04",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S32",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S06",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S20",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S12",
+    "date": "2026-09-24",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S06",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S14",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S15",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S02",
+    "date": "2026-09-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S01",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S01",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S01",
+    "date": "2026-09-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S29",
+    "date": "2026-09-26",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S12",
+    "date": "2026-09-23",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-09-23",
+    "source": "manual"
+   }
+  ]
+ },
+ {
+  "week_start": "2026-09-27",
+  "status": "locked",
+  "score": 54.6,
+  "assignments": [
+   {
+    "employee_id": "E01",
+    "shift_id": "S22",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S03",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S11",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S16",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S11",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S11",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S16",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S03",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S03",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S16",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S16",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S24",
+    "date": "2026-10-02",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S28",
+    "date": "2026-10-03",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S30",
+    "date": "2026-10-03",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S16",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S11",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S17",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S20",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S09",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S09",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S09",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S31",
+    "date": "2026-10-02",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S31",
+    "date": "2026-10-03",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S12",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S21",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S15",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S05",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S02",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S04",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S14",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S31",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S09",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S09",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S19",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S13",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S15",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S01",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S01",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S01",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S01",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S02",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S17",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S32",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S01",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S01",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S01",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S12",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S10",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S01",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S01",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S01",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S21",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S31",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S20",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S05",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S07",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S01",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S01",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S01",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S17",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S10",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S32",
+    "date": "2026-10-02",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S06",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S13",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S13",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S04",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S05",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S05",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S23",
+    "date": "2026-10-02",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S23",
+    "date": "2026-10-02",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S23",
+    "date": "2026-10-02",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S31",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S26",
+    "date": "2026-10-03",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S26",
+    "date": "2026-10-03",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S32",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S32",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S20",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S20",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S13",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S05",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S31",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S18",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S32",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S04",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S01",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S01",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S01",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S05",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S15",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S32",
+    "date": "2026-10-03",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S14",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S02",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S07",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S06",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S10",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S31",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S32",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S02",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S25",
+    "date": "2026-10-02",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S25",
+    "date": "2026-10-02",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S15",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E18",
+    "shift_id": "S13",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S17",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S12",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S29",
+    "date": "2026-10-03",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S09",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S09",
+    "date": "2026-09-30",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S27",
+    "date": "2026-10-03",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S27",
+    "date": "2026-10-03",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S15",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S17",
+    "date": "2026-09-27",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S18",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S02",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S02",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S09",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S09",
+    "date": "2026-09-28",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S14",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S10",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S09",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S09",
+    "date": "2026-09-29",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S10",
+    "date": "2026-10-01",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S04",
+    "date": "2026-09-27",
+    "source": "manual"
+   }
+  ]
+ },
+ {
+  "week_start": "2026-10-04",
+  "status": "locked",
+  "score": 53.7,
+  "assignments": [
+   {
+    "employee_id": "E04",
+    "shift_id": "S11",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S11",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S16",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S16",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S28",
+    "date": "2026-10-10",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S03",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S16",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S11",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S11",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S16",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S30",
+    "date": "2026-10-10",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S03",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S24",
+    "date": "2026-10-09",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S16",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S09",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S09",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S09",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S13",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S13",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S32",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S17",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S21",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S31",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S12",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E18",
+    "shift_id": "S32",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S18",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S13",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S20",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S32",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S09",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S09",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S31",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S13",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S17",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S04",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S01",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S01",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S01",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S23",
+    "date": "2026-10-09",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S23",
+    "date": "2026-10-09",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S23",
+    "date": "2026-10-09",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S20",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S15",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S18",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S06",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S05",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S32",
+    "date": "2026-10-09",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S06",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S09",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S09",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S32",
+    "date": "2026-10-10",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S10",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S20",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S12",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S02",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S02",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S09",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S09",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S04",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S15",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S15",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E18",
+    "shift_id": "S31",
+    "date": "2026-10-10",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S19",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S14",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S31",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S32",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S05",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S25",
+    "date": "2026-10-09",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S25",
+    "date": "2026-10-09",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S10",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S01",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S01",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S01",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S29",
+    "date": "2026-10-10",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S31",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S26",
+    "date": "2026-10-10",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S26",
+    "date": "2026-10-10",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S27",
+    "date": "2026-10-10",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S27",
+    "date": "2026-10-10",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S10",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S06",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S01",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S01",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S01",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S20",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S02",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S21",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S32",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S14",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S17",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S05",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S05",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S02",
+    "date": "2026-10-06",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S10",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S02",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S13",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S12",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S10",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S07",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S31",
+    "date": "2026-10-09",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S01",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S01",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S01",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S05",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S15",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S14",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S05",
+    "date": "2026-10-04",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S01",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S01",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S01",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S01",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S07",
+    "date": "2026-10-07",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S02",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S09",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S09",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S17",
+    "date": "2026-10-05",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S17",
+    "date": "2026-10-08",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S15",
+    "date": "2026-10-07",
+    "source": "manual"
+   }
+  ]
+ },
+ {
+  "week_start": "2026-10-11",
+  "status": "published",
+  "score": 53.8,
+  "assignments": [
+   {
+    "employee_id": "E05",
+    "shift_id": "S16",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S30",
+    "date": "2026-10-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S16",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S28",
+    "date": "2026-10-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S16",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S24",
+    "date": "2026-10-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S16",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S03",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S16",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S03",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S11",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S11",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S01",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S01",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S01",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S01",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S31",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S31",
+    "date": "2026-10-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S17",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S14",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S10",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S13",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S31",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S05",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S01",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S01",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S01",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S19",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S15",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S09",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S09",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S31",
+    "date": "2026-10-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S14",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S21",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S13",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S02",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S17",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S13",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S07",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S09",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S09",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S09",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S13",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S32",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S06",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S15",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S31",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S05",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S05",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S15",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S07",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S10",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S12",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S32",
+    "date": "2026-10-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S32",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S12",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S10",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S01",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S01",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S01",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S23",
+    "date": "2026-10-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S23",
+    "date": "2026-10-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S23",
+    "date": "2026-10-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S01",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S01",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S01",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S17",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S04",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S17",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S02",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S02",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S32",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S02",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S05",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S20",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S32",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S09",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S09",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S14",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S17",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S13",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S12",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S15",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S05",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S31",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S05",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S27",
+    "date": "2026-10-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S27",
+    "date": "2026-10-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S04",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S18",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S29",
+    "date": "2026-10-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S10",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S10",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S18",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S01",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S01",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S01",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S02",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S19",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S04",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S31",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E24",
+    "shift_id": "S21",
+    "date": "2026-10-12",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S02",
+    "date": "2026-10-13",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S32",
+    "date": "2026-10-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S04",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E27",
+    "shift_id": "S09",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S09",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S15",
+    "date": "2026-10-15",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E23",
+    "shift_id": "S09",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S09",
+    "date": "2026-10-14",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S32",
+    "date": "2026-10-11",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S25",
+    "date": "2026-10-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S25",
+    "date": "2026-10-16",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S26",
+    "date": "2026-10-17",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S26",
+    "date": "2026-10-17",
+    "source": "manual"
+   }
+  ]
+ },
+ {
+  "week_start": "2026-10-18",
+  "status": "draft",
+  "score": 43.0,
+  "assignments": [
+   {
+    "employee_id": "E05",
+    "shift_id": "S16",
+    "date": "2026-10-18",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S16",
+    "date": "2026-10-19",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E05",
+    "shift_id": "S16",
+    "date": "2026-10-20",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S15",
+    "date": "2026-10-21",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S01",
+    "date": "2026-10-22",
+    "source": "manual"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S15",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S18",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S20",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E14",
+    "shift_id": "S23",
+    "date": "2026-10-23",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S09",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S22",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S11",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S11",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S11",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S11",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S16",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S24",
+    "date": "2026-10-23",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E03",
+    "shift_id": "S28",
+    "date": "2026-10-24",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E02",
+    "shift_id": "S30",
+    "date": "2026-10-24",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E01",
+    "shift_id": "S19",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S19",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S20",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S20",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S20",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S06",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S14",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E21",
+    "shift_id": "S06",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E20",
+    "shift_id": "S14",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S06",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E15",
+    "shift_id": "S06",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S14",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-10-23",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E17",
+    "shift_id": "S31",
+    "date": "2026-10-24",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S13",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E18",
+    "shift_id": "S32",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S17",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E18",
+    "shift_id": "S13",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E10",
+    "shift_id": "S21",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S32",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S17",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S13",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S32",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S17",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S13",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E29",
+    "shift_id": "S21",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E18",
+    "shift_id": "S32",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E07",
+    "shift_id": "S17",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E18",
+    "shift_id": "S13",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S32",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E34",
+    "shift_id": "S17",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S32",
+    "date": "2026-10-23",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S32",
+    "date": "2026-10-24",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S10",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E22",
+    "shift_id": "S07",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S10",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S12",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S10",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S07",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S10",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S12",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E19",
+    "shift_id": "S18",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E33",
+    "shift_id": "S10",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S12",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S25",
+    "date": "2026-10-23",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E13",
+    "shift_id": "S25",
+    "date": "2026-10-23",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S09",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E32",
+    "shift_id": "S09",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S15",
+    "date": "2026-10-18",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S09",
+    "date": "2026-10-19",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S09",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S09",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E09",
+    "shift_id": "S15",
+    "date": "2026-10-20",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E31",
+    "shift_id": "S09",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E04",
+    "shift_id": "S09",
+    "date": "2026-10-21",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E06",
+    "shift_id": "S09",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E25",
+    "shift_id": "S09",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S09",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S15",
+    "date": "2026-10-22",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E28",
+    "shift_id": "S23",
+    "date": "2026-10-23",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E12",
+    "shift_id": "S23",
+    "date": "2026-10-23",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E16",
+    "shift_id": "S26",
+    "date": "2026-10-24",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E08",
+    "shift_id": "S26",
+    "date": "2026-10-24",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E26",
+    "shift_id": "S27",
+    "date": "2026-10-24",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E30",
+    "shift_id": "S27",
+    "date": "2026-10-24",
+    "source": "automatic"
+   },
+   {
+    "employee_id": "E11",
+    "shift_id": "S29",
+    "date": "2026-10-24",
+    "source": "automatic"
+   }
+  ]
+ }
+]

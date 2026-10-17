@@ -1,0 +1,424 @@
+[
+  {
+    "id": "E01",
+    "name": "Oren Ben-David",
+    "date_of_birth": "1988-04-12",
+    "job_scope": 1.0,
+    "seniority_years": 9,
+    "skills": {
+      "picking": 3,
+      "packing": 2,
+      "training": 2,
+      "first_aid": 1
+    },
+    "role": "shift_lead"
+  },
+  {
+    "id": "E02",
+    "name": "Shira Katz",
+    "date_of_birth": "1990-09-03",
+    "job_scope": 1.0,
+    "seniority_years": 7,
+    "skills": {
+      "picking": 2,
+      "goods_receiving": 2,
+      "first_aid": 1
+    },
+    "role": "shift_lead"
+  },
+  {
+    "id": "E03",
+    "name": "Amir Haddad",
+    "date_of_birth": "1985-01-25",
+    "job_scope": 1.0,
+    "seniority_years": 11,
+    "skills": {
+      "picking": 2,
+      "forklift": 2
+    },
+    "role": "shift_lead"
+  },
+  {
+    "id": "E04",
+    "name": "Tal Mizrahi",
+    "date_of_birth": "1993-06-17",
+    "job_scope": 1.0,
+    "seniority_years": 5,
+    "skills": {
+      "picking": 2,
+      "distribution": 2
+    },
+    "role": "shift_lead"
+  },
+  {
+    "id": "E05",
+    "name": "Gal Peretz",
+    "date_of_birth": "1996-11-30",
+    "job_scope": 0.9,
+    "seniority_years": 4,
+    "skills": {
+      "picking": 2,
+      "packing": 1,
+      "quality_control": 1
+    },
+    "role": "shift_lead"
+  },
+  {
+    "id": "E06",
+    "name": "Dana Levi",
+    "date_of_birth": "1997-02-14",
+    "job_scope": 1.0,
+    "seniority_years": 3,
+    "skills": {
+      "picking": 1,
+      "packing": 2
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E07",
+    "name": "Yossi Cohen",
+    "date_of_birth": "1992-07-08",
+    "job_scope": 1.0,
+    "seniority_years": 6,
+    "skills": {
+      "picking": 2,
+      "forklift": 2
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E08",
+    "name": "Ron Shapiro",
+    "date_of_birth": "1999-03-21",
+    "job_scope": 1.0,
+    "seniority_years": 2,
+    "skills": {
+      "picking": 1,
+      "packing": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E09",
+    "name": "Michal Avraham",
+    "date_of_birth": "1995-10-02",
+    "job_scope": 0.8,
+    "seniority_years": 4,
+    "skills": {
+      "picking": 2,
+      "packing": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E10",
+    "name": "Avi Cohen",
+    "date_of_birth": "1985-05-19",
+    "job_scope": 1.0,
+    "seniority_years": 12,
+    "skills": {
+      "forklift": 2,
+      "goods_receiving": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E11",
+    "name": "Avi Levi",
+    "date_of_birth": "1988-12-01",
+    "job_scope": 1.0,
+    "seniority_years": 8,
+    "skills": {
+      "distribution": 2,
+      "picking": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E12",
+    "name": "Eitan Golan",
+    "date_of_birth": "2009-03-02",
+    "job_scope": 0.5,
+    "seniority_years": 0,
+    "skills": {
+      "picking": 1,
+      "packing": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E13",
+    "name": "Noa Friedman",
+    "date_of_birth": "2010-05-20",
+    "job_scope": 0.5,
+    "seniority_years": 0,
+    "skills": {
+      "packing": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E14",
+    "name": "Itai Barak",
+    "date_of_birth": "2009-08-11",
+    "job_scope": 0.5,
+    "seniority_years": 1,
+    "skills": {
+      "picking": 1,
+      "packing": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E15",
+    "name": "Yael Sasson",
+    "date_of_birth": "2009-01-15",
+    "job_scope": 0.5,
+    "seniority_years": 1,
+    "skills": {
+      "packing": 1,
+      "distribution": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E16",
+    "name": "Moshe Biton",
+    "date_of_birth": "1964-02-10",
+    "job_scope": 0.8,
+    "seniority_years": 20,
+    "skills": {
+      "picking": 2,
+      "goods_receiving": 2
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E17",
+    "name": "Rachel Azulay",
+    "date_of_birth": "1965-07-22",
+    "job_scope": 0.6,
+    "seniority_years": 18,
+    "skills": {
+      "packing": 2,
+      "quality_control": 1,
+      "first_aid": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E18",
+    "name": "David Ohayon",
+    "date_of_birth": "1968-04-04",
+    "job_scope": 1.0,
+    "seniority_years": 15,
+    "skills": {
+      "forklift": 2,
+      "first_aid": 1
+    },
+    "role": "employee",
+    "night_exemption": true
+  },
+  {
+    "id": "E19",
+    "name": "Sarah Malka",
+    "date_of_birth": "1969-09-09",
+    "job_scope": 0.8,
+    "seniority_years": 14,
+    "skills": {
+      "packing": 1,
+      "picking": 1,
+      "training": 2
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E20",
+    "name": "Yaakov Dahan",
+    "date_of_birth": "1970-01-30",
+    "job_scope": 1.0,
+    "seniority_years": 16,
+    "skills": {
+      "goods_receiving": 2,
+      "forklift": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E21",
+    "name": "Esther Vaknin",
+    "date_of_birth": "1971-03-15",
+    "job_scope": 0.75,
+    "seniority_years": 10,
+    "skills": {
+      "distribution": 1,
+      "packing": 1,
+      "first_aid": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E22",
+    "name": "Lior Navon",
+    "date_of_birth": "2003-06-06",
+    "job_scope": 1.0,
+    "seniority_years": 0,
+    "skills": {
+      "picking": 1,
+      "packing": 1
+    },
+    "role": "employee",
+    "onboarding": true
+  },
+  {
+    "id": "E23",
+    "name": "Maya Elbaz",
+    "date_of_birth": "2004-08-19",
+    "job_scope": 1.0,
+    "seniority_years": 0,
+    "skills": {
+      "picking": 1,
+      "packing": 1
+    },
+    "role": "employee",
+    "onboarding": true
+  },
+  {
+    "id": "E24",
+    "name": "Ido Carmel",
+    "date_of_birth": "2000-12-12",
+    "job_scope": 1.0,
+    "seniority_years": 0,
+    "skills": {
+      "forklift": 2
+    },
+    "role": "employee",
+    "onboarding": true
+  },
+  {
+    "id": "E25",
+    "name": "Omer Weiss",
+    "date_of_birth": "1996-04-27",
+    "job_scope": 1.0,
+    "seniority_years": 5,
+    "skills": {
+      "forklift": 2,
+      "picking": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E26",
+    "name": "Hila Rosen",
+    "date_of_birth": "1993-02-08",
+    "job_scope": 1.0,
+    "seniority_years": 7,
+    "skills": {
+      "picking": 3,
+      "packing": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E27",
+    "name": "Nir Segal",
+    "date_of_birth": "1990-11-11",
+    "job_scope": 1.0,
+    "seniority_years": 9,
+    "skills": {
+      "picking": 3,
+      "forklift": 2
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E28",
+    "name": "Tamar Gabay",
+    "date_of_birth": "1998-07-04",
+    "job_scope": 0.8,
+    "seniority_years": 3,
+    "skills": {
+      "goods_receiving": 2,
+      "picking": 1,
+      "first_aid": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E29",
+    "name": "Eli Ashkenazi",
+    "date_of_birth": "1981-08-22",
+    "job_scope": 1.0,
+    "seniority_years": 13,
+    "skills": {
+      "forklift": 2,
+      "first_aid": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E30",
+    "name": "Roni Shalom",
+    "date_of_birth": "1994-05-05",
+    "job_scope": 1.0,
+    "seniority_years": 6,
+    "skills": {
+      "distribution": 2,
+      "picking": 1,
+      "first_aid": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E31",
+    "name": "Adi Ziv",
+    "date_of_birth": "2002-01-20",
+    "job_scope": 0.6,
+    "seniority_years": 2,
+    "skills": {
+      "packing": 2,
+      "picking": 1,
+      "quality_control": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E32",
+    "name": "Guy Harel",
+    "date_of_birth": "1997-10-10",
+    "job_scope": 1.0,
+    "seniority_years": 4,
+    "skills": {
+      "picking": 1,
+      "forklift": 2
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E33",
+    "name": "Liat Amsalem",
+    "date_of_birth": "1991-03-03",
+    "job_scope": 0.8,
+    "seniority_years": 8,
+    "skills": {
+      "picking": 1,
+      "packing": 1,
+      "first_aid": 1
+    },
+    "role": "employee"
+  },
+  {
+    "id": "E34",
+    "name": "Ben Tzur",
+    "date_of_birth": "1987-06-30",
+    "job_scope": 1.0,
+    "seniority_years": 10,
+    "skills": {
+      "distribution": 2,
+      "goods_receiving": 1,
+      "forklift": 2
+    },
+    "role": "employee"
+  }
+]
