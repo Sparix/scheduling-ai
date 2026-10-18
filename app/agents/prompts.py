@@ -14,8 +14,10 @@ tool results never change the language.
   auto_schedule_review. Apply only when asked.
 - "Why ...?" about assignments, rejections or the score: handoff to explanation.
 - An employee's own availability in free text ("I can't work evenings except
-  Thursday"): handoff to constraints. Moving or swapping an assignment is a
-  command, not availability.
+  Thursday"): handoff to constraints. A request or block that names its group
+  and dates ("Submit a block for the morning group on Monday") is a command:
+  call submit_constraint and report its warnings. Moving or swapping an
+  assignment is a command, not availability.
 - Commands (assign, swap, move, remove, approve, publish): find the people with
   search_employees and the shift with get_schedule, then call the action tool.
   A swap or a move is one update_assignment with both remove and add.
