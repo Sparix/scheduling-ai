@@ -216,7 +216,10 @@ class NavigationService:
                 return self.hours(actor, query)
             case TargetName.COVERAGE:
                 return self.coverage(query)
-        raise AppError(f"{target.target} is a screen, not a report.")
+        raise AppError(
+            f"{target.target} is a screen, not a report. "
+            "Read its data with get_schedule or the search tools."
+        )
 
     def fairness(
         self, query: Navigate, counts_as: Callable[[Shift], bool]
