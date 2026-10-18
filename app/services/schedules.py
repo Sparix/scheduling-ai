@@ -24,13 +24,16 @@ from app.schemas import (
     Source,
     Unfilled,
     Violation,
+    Weekday,
     week_start_of,
+    weekday_of,
 )
 from app.services.access import Access
 
 
 class ScheduleRow(Schema):
     date: Date
+    weekday: Weekday
     shift_id: str
     shift: str
     start: time
@@ -38,6 +41,7 @@ class ScheduleRow(Schema):
     employee_id: str
     employee: str
     source: Source
+    violations: list[str] | None = None
 
 
 class Candidate(Schema):
@@ -82,10 +86,20 @@ class ScheduleService:
             raise AppError(f"The week of {schedule.week_start} is {schedule.status}.")
         return schedule
 
-    def row(self, item: Assignment) -> ScheduleRow:
+    def row(
+        self, item: Assignment, violations: list[Violation] | None = None
+    ) -> ScheduleRow:
         shift = self.repo.shifts[item.shift_id]
+        rules = {
+            v.rule
+            for v in violations or []
+            if v.employee_id == item.employee_id
+            and v.shift_id in (None, item.shift_id)
+            and v.date in (None, item.date)
+        }
         return ScheduleRow(
             date=item.date,
+            weekday=weekday_of(item.date),
             shift_id=shift.id,
             shift=shift.name,
             start=shift.start,
@@ -93,10 +107,12 @@ class ScheduleService:
             employee_id=item.employee_id,
             employee=self.repo.employees[item.employee_id].name,
             source=item.source,
+            violations=sorted(rules) or None,
         )
 
     def get_schedule(self, actor: Actor, query: ScheduleQuery) -> list[ScheduleRow]:
         employee_id = self.access.scope(actor, query.employee_id)
+        check = self.engine.check_schedule(query.week, self.repo.assignments())
         rows = []
         for item in self.schedule(query.week).assignments:
             shift = self.repo.shifts[item.shift_id]
@@ -109,7 +125,7 @@ class ScheduleService:
                 and (query.role is None or employee.role == query.role)
                 and (not query.night_only or shift.is_night)
             ):
-                rows.append(self.row(item))
+                rows.append(self.row(item, check.violations))
         return sorted(rows, key=lambda row: (row.date, row.start))
 
     def check_assignment(self, actor: Actor, query: AssignmentQuery) -> Decision:
