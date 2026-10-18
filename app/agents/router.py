@@ -62,12 +62,16 @@ class Router:
             Message(role="system", content=self.context(actor).model_dump_json()),
         ]
         turn = [Message(role="user", content=text)]
+        language = Message(
+            role="system",
+            content=f'The user wrote: "{text[:200]}". Reply in that language.',
+        )
         tools = self.registry.visible(actor)
         results: list[ToolResult] = []
         for iteration in range(self.max_iterations):
             last = iteration == self.max_iterations - 1
             reply = await self.model.complete(
-                prompt + history + turn, tools, "none" if last else "auto"
+                prompt + history + turn + [language], tools, "none" if last else "auto"
             )
             turn.append(reply)
             if not reply.tool_calls:
