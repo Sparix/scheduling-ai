@@ -209,9 +209,11 @@ class RuleEngine:
             add("13", f"{week_hours:g}h this week at job scope {employee.job_scope}.")
         if minor and week_hours > self.limit("A3"):
             add("A3", f"{week_hours:g}h this week.")
-        rest = longest_rest(week, [s.interval(d) for s, d in work] + [(start, end)])
-        if rest < self.limit("2"):
-            add("2", f"Longest weekly rest would be {rest:g}h.")
+        intervals = [s.interval(d) for s, d in work] + [(start, end)]
+        for rest_week in sorted({week, week_start_of(end.date())}):
+            rest = longest_rest(rest_week, intervals)
+            if rest < self.limit("2"):
+                add("2", f"Longest rest in the week of {rest_week} would be {rest:g}h.")
         return found
 
     def team_violations(
