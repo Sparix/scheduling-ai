@@ -1,3 +1,4 @@
+from collections import Counter
 from datetime import date as Date
 from datetime import datetime, time, timedelta
 from enum import StrEnum
@@ -306,6 +307,11 @@ class ScheduleCheck(Schema):
     violations: list[Violation]
     soft: list[SoftScore]
     score: float
+
+    @computed_field
+    @property
+    def per_rule(self) -> dict[str, int]:
+        return dict(Counter(v.rule for v in self.violations))
 
 
 class ConstraintDecision(Schema):

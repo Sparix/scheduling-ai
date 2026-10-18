@@ -44,6 +44,13 @@ class ScheduleRow(Schema):
     violations: list[str] | None = None
 
 
+class WeekSchedule(Schema):
+    week: Date
+    status: ScheduleStatus
+    assignments: int
+    rows: list[ScheduleRow]
+
+
 class Candidate(Schema):
     employee_id: str
     employee: str
@@ -110,11 +117,12 @@ class ScheduleService:
             violations=sorted(rules) or None,
         )
 
-    def get_schedule(self, actor: Actor, query: ScheduleQuery) -> list[ScheduleRow]:
+    def get_schedule(self, actor: Actor, query: ScheduleQuery) -> WeekSchedule:
         employee_id = self.access.scope(actor, query.employee_id)
+        schedule = self.schedule(query.week)
         check = self.engine.check_schedule(query.week, self.repo.assignments())
         rows = []
-        for item in self.schedule(query.week).assignments:
+        for item in schedule.assignments:
             shift = self.repo.shifts[item.shift_id]
             employee = self.repo.employees[item.employee_id]
             if (
@@ -126,7 +134,12 @@ class ScheduleService:
                 and (not query.night_only or shift.is_night)
             ):
                 rows.append(self.row(item, check.violations))
-        return sorted(rows, key=lambda row: (row.date, row.start))
+        return WeekSchedule(
+            week=schedule.week_start,
+            status=schedule.status,
+            assignments=len(rows),
+            rows=sorted(rows, key=lambda row: (row.date, row.start)),
+        )
 
     def check_assignment(self, actor: Actor, query: AssignmentQuery) -> Decision:
         for slot in [query, *query.instead_of]:
