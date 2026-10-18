@@ -196,7 +196,10 @@ class ViewService:
         items = self.reads.search_constraints(
             actor,
             ConstraintQuery(
-                employee_id=query.employee_id, week=query.week, group=query.group
+                employee_id=query.employee_id,
+                week=query.week,
+                group=query.group,
+                status=query.status,
             ),
         )
         table = Table(

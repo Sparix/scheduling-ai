@@ -65,7 +65,7 @@ TARGETS = [
         kind=SCREEN,
         description="Submitted constraints and pending approvals.",
         roles=MANAGER,
-        params={"week", "group", "employee_id"},
+        params={"week", "group", "employee_id", "status"},
     ),
     Target(
         name=TargetName.MY_CONSTRAINTS,

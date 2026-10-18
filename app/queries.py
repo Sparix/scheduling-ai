@@ -139,6 +139,7 @@ class NavigationParams(Schema):
     employee_id: str | None = None
     role: EmployeeRole | None = None
     night_only: bool | None = None
+    status: Status | None = None
     proposal_id: str | None = None
 
 
