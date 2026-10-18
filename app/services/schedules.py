@@ -1,5 +1,6 @@
 from datetime import date as Date
 from datetime import time
+from itertools import count
 
 from app.errors import AppError, NotFound
 from app.queries import (
@@ -69,6 +70,7 @@ class ActionOutcome(Schema):
 
 class Proposal(Schema):
     proposal_id: str
+    week: Date
     proposed: list[ScheduleRow]
     unfilled: list[Unfilled]
     score_before: float
@@ -80,6 +82,7 @@ class ScheduleService:
         self.repo = repo
         self.access = access
         self.engine = engine
+        self.proposal_ids = count(1)
 
     def schedule(self, week: Date) -> Schedule:
         schedule = self.repo.schedules.get(week_start_of(week))
@@ -217,12 +220,21 @@ class ScheduleService:
         ]
         current = self.repo.assignments()
         result = self.engine.auto_schedule(schedule.week_start, shift_ids, current)
-        proposal_id = f"P{len(self.repo.proposals) + 1}"
+        proposal_id = f"P{next(self.proposal_ids)}"
         self.repo.proposals[proposal_id] = result
+        return self.proposal(actor, proposal_id)
+
+    def proposal(self, actor: Actor, proposal_id: str) -> Proposal:
+        self.access.manager(actor)
+        result = self.repo.proposals.get(proposal_id)
+        if result is None:
+            raise NotFound(f"Proposal {proposal_id} not found.")
+        current = self.repo.assignments()
         before = self.engine.check_schedule(result.week, current)
         after = self.engine.check_schedule(result.week, current + result.proposed)
         return Proposal(
             proposal_id=proposal_id,
+            week=result.week,
             proposed=[self.row(a) for a in result.proposed],
             unfilled=result.unfilled,
             score_before=before.score,

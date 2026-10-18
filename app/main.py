@@ -15,6 +15,7 @@ from app.agents.model import ChatModel, Message, OpenAIModel
 from app.agents.router import Failure, Result, Router
 from app.config import Clock, Settings
 from app.errors import AppError, NotFound, PermissionDenied
+from app.queries import Navigate
 from app.repository import Repository
 from app.rule_engine import RuleEngine
 from app.schemas import Actor, Schema
@@ -23,6 +24,7 @@ from app.services.constraints import ConstraintService
 from app.services.navigation import NavigationService
 from app.services.reads import ReadService
 from app.services.schedules import ScheduleService
+from app.services.views import View, ViewService
 from app.tools import ToolRegistry, ToolResult, build_tools
 
 APP_DIR = Path(__file__).parent
@@ -53,16 +55,16 @@ class ContextResponse(Schema):
 
 def build(
     repo: Repository, engine: RuleEngine, clock: Clock
-) -> tuple[ToolRegistry, NavigationService]:
+) -> tuple[ToolRegistry, NavigationService, ViewService]:
     access = Access(repo)
+    reads = ReadService(repo, access, clock)
+    schedules = ScheduleService(repo, access, engine)
     navigation = NavigationService(repo, access, clock)
     tools = build_tools(
-        ReadService(repo, access, clock),
-        ScheduleService(repo, access, engine),
-        ConstraintService(repo, access, engine, clock),
-        navigation,
+        reads, schedules, ConstraintService(repo, access, engine, clock), navigation
     )
-    return ToolRegistry(tools), navigation
+    views = ViewService(repo, reads, schedules, navigation)
+    return ToolRegistry(tools), navigation, views
 
 
 def create_app(
@@ -71,7 +73,7 @@ def create_app(
     settings = settings or Settings()
     repo = Repository(settings.data_dir)
     clock = Clock(settings.demo_now)
-    registry, navigation = build(repo, RuleEngine(repo), clock)
+    registry, navigation, views = build(repo, RuleEngine(repo), clock)
     accounts = demo_accounts(repo)
     conversations: dict[UUID, Conversation] = {}
 
@@ -109,6 +111,10 @@ def create_app(
         return ContextResponse(
             user=actor, accounts=list(accounts.values()), now=clock.now()
         )
+
+    @app.post("/api/view")
+    async def view(query: Navigate, actor: CurrentActor) -> View:
+        return views.open(actor, query)
 
     @app.post("/api/chat", response_model_exclude_none=True)
     async def chat(
