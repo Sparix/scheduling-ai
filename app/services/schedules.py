@@ -148,7 +148,7 @@ class ScheduleService:
         for slot in [query, *query.instead_of]:
             self.access.employee(actor, slot.employee_id)
         shift = self.repo.get_shift(query.shift_id)
-        ignored = {slot.key for slot in query.instead_of}
+        ignored = {slot.key for slot in [query, *query.instead_of]}
         others = [a for a in self.repo.assignments() if a.key not in ignored]
         item = Assignment(
             employee_id=query.employee_id, shift_id=shift.id, date=query.date
