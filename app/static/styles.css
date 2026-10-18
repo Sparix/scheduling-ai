@@ -78,13 +78,92 @@ summary {
   overflow: hidden;
 }
 
+.app {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
 .chat-layout {
+  flex: 0 1 760px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
-  max-width: 760px;
   height: 100%;
-  margin: 0 auto;
   padding: 0 20px;
+}
+
+.view {
+  flex: 1 1 0;
+  min-width: 0;
+  overflow-y: auto;
+  padding: 12px 20px 20px;
+  border-left: 1px solid #eee;
+}
+
+.view[hidden] {
+  display: none;
+}
+
+.view-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.view-header h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.view-header p {
+  margin: 4px 0 0;
+}
+
+.table-wrap {
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+.table-wrap h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th,
+td {
+  padding: 6px 8px;
+  border: 1px solid #eee;
+  text-align: left;
+  vertical-align: top;
+  white-space: pre-line;
+}
+
+th {
+  background: #f7f7f7;
+  font-weight: 500;
+}
+
+td.alert {
+  background: #fdf3f3;
+  color: #9a2929;
+}
+
+.open-view {
+  margin-top: 4px;
+  padding: 5px 10px;
+  font-size: 13px;
 }
 
 .toolbar {
@@ -170,6 +249,16 @@ article.tool strong {
 #status {
   min-height: 20px;
   margin: 6px 0 0;
+}
+
+@media (max-width: 900px) {
+  .view {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    background: #fff;
+    border-left: 0;
+  }
 }
 
 @media (max-width: 480px) {

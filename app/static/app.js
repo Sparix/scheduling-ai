@@ -5,6 +5,10 @@ const send = document.querySelector('#send');
 const status = document.querySelector('#status');
 const account = document.querySelector('#account');
 const clock = document.querySelector('#clock');
+const view = document.querySelector('#view');
+const viewTitle = document.querySelector('#view-title');
+const viewSubtitle = document.querySelector('#view-subtitle');
+const viewBody = document.querySelector('#view-body');
 let sessionId = null;
 
 function addMessage(label, text, className = '') {
@@ -40,6 +44,63 @@ function stepLabel(step) {
   return `Handoff → ${step.agent} agent`;
 }
 
+function renderTable(table) {
+  const wrap = document.createElement('div');
+  wrap.className = 'table-wrap';
+  if (table.title) {
+    const heading = document.createElement('h3');
+    heading.textContent = table.title;
+    wrap.append(heading);
+  }
+  const element = document.createElement('table');
+  const head = element.createTHead().insertRow();
+  for (const column of table.columns) {
+    const th = document.createElement('th');
+    th.textContent = column;
+    head.append(th);
+  }
+  const rows = element.createTBody();
+  for (const row of table.rows) {
+    const tr = rows.insertRow();
+    for (const value of row) {
+      const td = tr.insertCell();
+      td.textContent = value;
+      if (value.includes('⚠')) td.className = 'alert';
+    }
+  }
+  wrap.append(element);
+  return wrap;
+}
+
+async function openView(step) {
+  view.hidden = false;
+  viewTitle.textContent = step.target;
+  viewSubtitle.textContent = 'Loading…';
+  viewBody.replaceChildren();
+  const response = await fetch('/api/view', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json', 'X-Demo-User': account.value},
+    body: JSON.stringify({target: step.target, ...step.params}),
+  });
+  const body = await response.json();
+  if (!response.ok) {
+    viewSubtitle.textContent = body.result?.message || 'This screen cannot be opened.';
+    return;
+  }
+  viewTitle.textContent = body.title;
+  viewSubtitle.textContent = body.subtitle || body.message;
+  viewBody.replaceChildren(...body.tables.map(renderTable));
+}
+
+function addOpenButton(parent, step) {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'open-view';
+  button.textContent = `Open ${step.target}`;
+  button.addEventListener('click', () => openView(step));
+  parent.append(button);
+}
+
 function render(body) {
   for (const call of body.tool_calls || []) {
     const article = addMessage('Tool · ' + call.tool, '', call.error ? 'tool error' : 'tool');
@@ -52,7 +113,15 @@ function render(body) {
     return;
   }
   const article = addMessage('Assistant', result.text);
-  for (const step of result.steps || []) addJSON(article, stepLabel(step), step, true);
+  const targets = [];
+  for (const step of result.steps || []) {
+    addJSON(article, stepLabel(step), step, true);
+    if (step.target) {
+      addOpenButton(article, step);
+      targets.push(step);
+    }
+  }
+  if (targets.length) openView(targets.at(-1));
   if (result.options?.length) {
     const options = document.createElement('div');
     options.className = 'options';
@@ -104,8 +173,13 @@ async function loadAccounts() {
   clock.textContent = 'Now: ' + body.now.replace('T', ' ');
 }
 
+document.querySelector('#view-close').addEventListener('click', () => {
+  view.hidden = true;
+});
+
 account.addEventListener('change', () => {
   sessionId = null;
+  view.hidden = true;
   messages.replaceChildren();
   addMessage('System', 'Signed in as ' + account.selectedOptions[0].textContent, 'muted');
 });
