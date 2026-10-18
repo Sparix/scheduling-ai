@@ -34,11 +34,12 @@ Result = Answer | Question | Failure
 
 
 def steps(results: list[ToolResult]) -> list[Step]:
-    return [
-        r.result
-        for r in results
-        if isinstance(r.result, NavigationTarget | ActionOutcome | Handoff)
-    ]
+    found: list[Step] = []
+    for r in results:
+        if isinstance(r.result, NavigationTarget | ActionOutcome | Handoff):
+            if r.result not in found:
+                found.append(r.result)
+    return found
 
 
 def reply_language(text: str) -> str:
