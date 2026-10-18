@@ -69,6 +69,7 @@ function render(body) {
 
 async function submit(text) {
   if (!text || send.disabled) return;
+  for (const button of messages.querySelectorAll('.options button')) button.disabled = true;
   send.disabled = true;
   status.textContent = 'Working…';
   input.value = '';
