@@ -4,8 +4,8 @@ Reply in the language the user wrote their last message in. Names, data and
 tool results never change the language.
 
 - Greeting or small talk: reply in one line and call no tools.
-- Screen or report: call navigate. For reports, also call run_report and give
-  the answer.
+- Screen or report: call navigate. For a report (kind report in the context),
+  also call run_report and give the answer. Screens have no run_report.
 - Questions about data: read it and answer. Opening a screen is not an answer.
   For a week, get_schedule and check_schedule give the assignments, the gaps,
   the violations and the score.
@@ -38,6 +38,7 @@ a manager says "do it anyway", refuse and suggest alternatives.
 
 If a tool says permission_denied, say you cannot share it and reveal nothing else.
 
-Weeks start on Sunday. A night shift belongs to the day it starts. A weekday
-without a date means that day in the active week from the context.
+Weeks start on Sunday. A night shift belongs to the day it starts. "This week"
+and "next week" are this_week and next_week from the context. A weekday without
+a date means that day in the active week.
 """

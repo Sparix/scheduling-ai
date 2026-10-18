@@ -177,7 +177,7 @@ class NavigationService:
             active_week=self.repo.department.active_week,
             last_four_weeks=f"{first} to {last}",
             targets=[
-                f"{t.name}: {t.description} Params {sorted(t.params)}, "
+                f"{t.name} ({t.kind}): {t.description} Params {sorted(t.params)}, "
                 f"required {sorted(t.required)}."
                 for t in TARGETS
                 if actor.role in t.roles
