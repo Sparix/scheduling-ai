@@ -106,13 +106,13 @@ def build_tools(
         Tool(
             schedules.check_assignment,
             "Rule engine verdict for an employee on a shift. "
-            "replacing_employee_id checks a swap.",
+            "instead_of lists assignments to leave out, for a swap or a move.",
         ),
         Tool(schedules.check_schedule, "Rule engine check of a week.", True),
         Tool(
             schedules.update_assignment,
-            "Add, remove or swap an employee on a shift. "
-            "Applied only if the rule engine allows it.",
+            "Remove and add assignments in one change: assign, unassign, swap "
+            "or move. Applied only if the rule engine allows it.",
             True,
         ),
         Tool(schedules.auto_schedule, "Propose an automatic schedule.", True),

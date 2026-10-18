@@ -77,22 +77,27 @@ class ScheduleQuery(Schema):
     night_only: bool = False
 
 
-class AssignmentQuery(Schema):
+class Slot(Schema):
     employee_id: str
     shift_id: ShiftId
     date: Date
-    replacing_employee_id: str | None = None
+
+    @property
+    def key(self) -> tuple[str, str, Date]:
+        return self.employee_id, self.shift_id, self.date
+
+
+class AssignmentQuery(Slot):
+    instead_of: list[Slot] = []
 
 
 class WeekQuery(Schema):
     week: Week
 
 
-class AssignmentChange(Schema):
-    shift_id: ShiftId
-    date: Date
-    add_employee_id: str | None = None
-    remove_employee_id: str | None = None
+class ScheduleChange(Schema):
+    add: list[Slot] = []
+    remove: list[Slot] = []
 
 
 class AutoScheduleQuery(Schema):

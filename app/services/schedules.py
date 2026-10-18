@@ -3,10 +3,10 @@ from datetime import time
 
 from app.errors import AppError, NotFound
 from app.queries import (
-    AssignmentChange,
     AssignmentQuery,
     AutoScheduleQuery,
     ProposalQuery,
+    ScheduleChange,
     ScheduleQuery,
     WeekQuery,
 )
@@ -106,10 +106,11 @@ class ScheduleService:
         return sorted(rows, key=lambda row: (row.date, row.start))
 
     def check_assignment(self, actor: Actor, query: AssignmentQuery) -> Decision:
-        self.access.employee(actor, query.employee_id)
+        for slot in [query, *query.instead_of]:
+            self.access.employee(actor, slot.employee_id)
         shift = self.repo.get_shift(query.shift_id)
-        replaced = (query.replacing_employee_id, shift.id, query.date)
-        others = [a for a in self.repo.assignments() if a.key != replaced]
+        ignored = {slot.key for slot in query.instead_of}
+        others = [a for a in self.repo.assignments() if a.key not in ignored]
         item = Assignment(
             employee_id=query.employee_id, shift_id=shift.id, date=query.date
         )
@@ -119,23 +120,31 @@ class ScheduleService:
         self.access.manager(actor)
         return self.engine.check_schedule(query.week, self.repo.assignments())
 
-    def update_assignment(self, actor: Actor, query: AssignmentChange) -> ActionOutcome:
+    def update_assignment(self, actor: Actor, query: ScheduleChange) -> ActionOutcome:
         self.access.manager(actor)
-        shift = self.repo.get_shift(query.shift_id)
-        schedule = self.draft(query.date)
-        items = list(schedule.assignments)
-        if query.remove_employee_id:
-            removed = (query.remove_employee_id, shift.id, query.date)
-            if removed not in [a.key for a in items]:
-                raise NotFound(f"{query.remove_employee_id} is not on this shift.")
-            items = [a for a in items if a.key != removed]
-        added = []
-        if query.add_employee_id:
-            employee = self.repo.get_employee(query.add_employee_id)
-            added = [
-                Assignment(employee_id=employee.id, shift_id=shift.id, date=query.date)
-            ]
-        return self.commit("update_assignment", schedule, items + added, added)
+        slots = query.add + query.remove
+        if not slots:
+            raise AppError("Nothing to change.")
+        if len({week_start_of(slot.date) for slot in slots}) > 1:
+            raise AppError("Change one week at a time.")
+        schedule = self.draft(slots[0].date)
+        keys = {a.key for a in schedule.assignments}
+        for slot in query.remove:
+            if slot.key not in keys:
+                raise NotFound(
+                    f"{slot.employee_id} is not on {slot.shift_id} on {slot.date}."
+                )
+        removed = {slot.key for slot in query.remove}
+        kept = [a for a in schedule.assignments if a.key not in removed]
+        added = [
+            Assignment(
+                employee_id=self.repo.get_employee(slot.employee_id).id,
+                shift_id=self.repo.get_shift(slot.shift_id).id,
+                date=slot.date,
+            )
+            for slot in query.add
+        ]
+        return self.commit("update_assignment", schedule, kept + added, added)
 
     def auto_schedule(self, actor: Actor, query: AutoScheduleQuery) -> Proposal:
         self.access.manager(actor)
