@@ -15,7 +15,6 @@ from app.agents.model import ChatModel, Message, OpenAIModel
 from app.agents.router import Failure, Result, Router
 from app.config import Clock, Settings
 from app.errors import AppError, NotFound, PermissionDenied
-from app.mock_engine import MockRuleEngine
 from app.repository import Repository
 from app.rule_engine import RuleEngine
 from app.schemas import Actor, Schema
@@ -72,7 +71,7 @@ def create_app(
     settings = settings or Settings()
     repo = Repository(settings.data_dir)
     clock = Clock(settings.demo_now)
-    registry, navigation = build(repo, MockRuleEngine(repo), clock)
+    registry, navigation = build(repo, RuleEngine(repo), clock)
     accounts = demo_accounts(repo)
     conversations: dict[UUID, Conversation] = {}
 
