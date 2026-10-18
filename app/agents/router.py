@@ -41,6 +41,12 @@ def steps(results: list[ToolResult]) -> list[Step]:
     ]
 
 
+def reply_language(text: str) -> str:
+    if text.isascii():
+        return "Reply in English."
+    return f'The user wrote: "{text[:200]}". Reply in that language.'
+
+
 class Router:
     def __init__(
         self,
@@ -62,10 +68,7 @@ class Router:
             Message(role="system", content=self.context(actor).model_dump_json()),
         ]
         turn = [Message(role="user", content=text)]
-        language = Message(
-            role="system",
-            content=f'The user wrote: "{text[:200]}". Reply in that language.',
-        )
+        language = Message(role="system", content=reply_language(text))
         tools = self.registry.visible(actor)
         results: list[ToolResult] = []
         for iteration in range(self.max_iterations):
