@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8765:8765"
+    env_file: .env
