@@ -91,6 +91,12 @@ class AssignmentQuery(Slot):
     instead_of: list[Slot] = []
 
 
+class CandidateQuery(Schema):
+    shift_id: ShiftId
+    date: Date
+    instead_of: list[Slot] = []
+
+
 class WeekQuery(Schema):
     week: Week
 

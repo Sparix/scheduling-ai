@@ -108,6 +108,11 @@ def build_tools(
             "Rule engine verdict for an employee on a shift. "
             "instead_of lists assignments to leave out, for a swap or a move.",
         ),
+        Tool(
+            schedules.find_candidates,
+            "Rule engine verdict for every employee on one shift.",
+            True,
+        ),
         Tool(schedules.check_schedule, "Rule engine check of a week.", True),
         Tool(
             schedules.update_assignment,

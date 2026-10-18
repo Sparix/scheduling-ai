@@ -5,6 +5,7 @@ from app.errors import AppError, NotFound
 from app.queries import (
     AssignmentQuery,
     AutoScheduleQuery,
+    CandidateQuery,
     ProposalQuery,
     ScheduleChange,
     ScheduleQuery,
@@ -37,6 +38,12 @@ class ScheduleRow(Schema):
     employee_id: str
     employee: str
     source: Source
+
+
+class Candidate(Schema):
+    employee_id: str
+    employee: str
+    violations: list[str]
 
 
 class ActionOutcome(Schema):
@@ -115,6 +122,33 @@ class ScheduleService:
             employee_id=query.employee_id, shift_id=shift.id, date=query.date
         )
         return self.engine.check_assignment(item, others)
+
+    def find_candidates(self, actor: Actor, query: CandidateQuery) -> list[Candidate]:
+        self.access.manager(actor)
+        shift = self.repo.get_shift(query.shift_id)
+        ignored = {slot.key for slot in query.instead_of}
+        others = [a for a in self.repo.assignments() if a.key not in ignored]
+        on_shift = {
+            a.employee_id
+            for a in others
+            if a.shift_id == shift.id and a.date == query.date
+        }
+        candidates = []
+        for employee in self.repo.employees.values():
+            if employee.id in on_shift:
+                continue
+            item = Assignment(
+                employee_id=employee.id, shift_id=shift.id, date=query.date
+            )
+            decision = self.engine.check_assignment(item, others)
+            candidates.append(
+                Candidate(
+                    employee_id=employee.id,
+                    employee=employee.name,
+                    violations=sorted({v.rule for v in decision.violations}),
+                )
+            )
+        return sorted(candidates, key=lambda c: len(c.violations))
 
     def check_schedule(self, actor: Actor, query: WeekQuery) -> ScheduleCheck:
         self.access.manager(actor)
