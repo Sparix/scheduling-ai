@@ -80,9 +80,6 @@ class ViewService:
     def title(self, query: Navigate) -> str:
         return query.target.replace("_", " ").capitalize()
 
-    def name(self, employee_id: str) -> str:
-        return self.repo.employees[employee_id].name
-
     def grid(
         self, days: list[Date], shifts: list[Shift], rows: list[ScheduleRow], gaps: bool
     ) -> Table:
@@ -208,7 +205,7 @@ class ViewService:
             rows=[
                 [
                     c.id,
-                    self.name(c.employee_id),
+                    c.employee,
                     c.group,
                     day(c.date),
                     c.type,
@@ -237,7 +234,7 @@ class ViewService:
         table = Table(
             columns=["Employee", "Type", "From", "To", "Status"],
             rows=[
-                [self.name(a.employee_id), a.type, day(a.start), day(a.end), a.status]
+                [a.employee, a.type, day(a.start), day(a.end), a.status]
                 for a in sorted(items, key=lambda a: a.start)
             ],
         )

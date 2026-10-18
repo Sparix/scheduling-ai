@@ -36,6 +36,14 @@ class EmployeeView(Employee):
     age: int
 
 
+class ConstraintView(Constraint):
+    employee: str
+
+
+class AbsenceView(Absence):
+    employee: str
+
+
 def match_name(name: str, employees: list[Employee]) -> list[Employee]:
     needle = name.casefold().strip()
     words = [e for e in employees if needle in e.name.casefold().split()]
@@ -99,10 +107,12 @@ class ReadService:
             and (query.type is None or r.type == query.type)
         ]
 
-    def search_absences(self, actor: Actor, query: AbsenceQuery) -> list[Absence]:
+    def search_absences(self, actor: Actor, query: AbsenceQuery) -> list[AbsenceView]:
         employee_id = self.access.scope(actor, query.employee_id)
         return [
-            a
+            AbsenceView(
+                **a.model_dump(), employee=self.repo.employees[a.employee_id].name
+            )
             for a in self.repo.absences
             if (employee_id is None or a.employee_id == employee_id)
             and (query.from_date is None or a.end >= query.from_date)
@@ -111,10 +121,12 @@ class ReadService:
 
     def search_constraints(
         self, actor: Actor, query: ConstraintQuery
-    ) -> list[Constraint]:
+    ) -> list[ConstraintView]:
         employee_id = self.access.scope(actor, query.employee_id)
         return [
-            c
+            ConstraintView(
+                **c.model_dump(), employee=self.repo.employees[c.employee_id].name
+            )
             for c in self.repo.constraints.values()
             if (employee_id is None or c.employee_id == employee_id)
             and (query.week is None or week_start_of(c.date) == query.week)
