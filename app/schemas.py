@@ -282,6 +282,10 @@ class Violation(Schema):
     def key(self) -> tuple:
         return self.rule, self.employee_id, self.shift_id, self.date
 
+    @property
+    def is_gap(self) -> bool:
+        return self.employee_id is None and self.rule in ("11", "12")
+
 
 class Decision(Schema):
     violations: list[Violation] = []

@@ -213,16 +213,24 @@ class ScheduleService:
         self.access.manager(actor)
         schedule = self.draft(query.week)
         check = self.engine.check_schedule(schedule.week_start, self.repo.assignments())
-        if check.violations:
+        broken = [v for v in check.violations if not v.is_gap]
+        gaps = [v for v in check.violations if v.is_gap]
+        if broken:
             return ActionOutcome(
                 action="publish_schedule",
                 applied=False,
                 message="Hard violations must be fixed first.",
-                violations=check.violations,
+                violations=broken,
+                warnings=gaps,
             )
         schedule.status = ScheduleStatus.PUBLISHED
         return ActionOutcome(
-            action="publish_schedule", applied=True, message="Published."
+            action="publish_schedule",
+            applied=True,
+            message=f"Published with {len(gaps)} staffing gaps."
+            if gaps
+            else "Published.",
+            warnings=gaps,
         )
 
     def commit(
@@ -247,15 +255,17 @@ class ScheduleService:
         before = self.engine.check_schedule(week, current)
         after = self.engine.check_schedule(week, proposed)
         known = {v.key for v in before.violations}
-        new = [v for v in after.violations if v.key not in known and v.rule != "11"]
-        if not new:
+        new = [v for v in after.violations if v.key not in known]
+        broken = [v for v in new if not v.is_gap]
+        if not broken:
             schedule.assignments = items
             schedule.score = after.score
         return ActionOutcome(
             action=action,
-            applied=not new,
-            message="The change would break other rules." if new else "Applied.",
-            violations=new,
+            applied=not broken,
+            message="The change would break other rules." if broken else "Applied.",
+            violations=broken,
+            warnings=[v for v in new if v.is_gap],
             score_before=before.score,
             score_after=after.score,
         )
