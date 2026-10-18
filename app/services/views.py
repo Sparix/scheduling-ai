@@ -139,8 +139,9 @@ class ViewService:
         )
         if actor.role == UserRole.MANAGER:
             check = self.schedules.check_schedule(actor, WeekQuery(week=schedule.week))
-            gap_count = sum(v.is_gap for v in check.violations)
-            subtitle += f" · {gap_count} gaps · score {check.score:g}"
+            if gaps:
+                subtitle += f" · {sum(v.is_gap for v in check.violations)} gaps"
+            subtitle += f" · score {check.score:g}"
         return View(
             target=query.target,
             title=self.title(query),
@@ -327,9 +328,12 @@ class ViewService:
             if query.from_date
             else f"Week of {query.week}"
         )
+        detail = any(r.detail for r in rows)
         table = Table(
-            columns=["Name", "Value", "Detail"],
-            rows=[[r.label, f"{r.value:g}", r.detail] for r in rows],
+            columns=["Name", "Value", "Detail"] if detail else ["Name", "Value"],
+            rows=[
+                [r.label, f"{r.value:g}", r.detail][: 3 if detail else 2] for r in rows
+            ],
         )
         return View(
             target=query.target,
